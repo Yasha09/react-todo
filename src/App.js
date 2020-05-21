@@ -9,7 +9,7 @@ import {v4 as uuidv4} from 'uuid';
 import {withStyles} from '@material-ui/core/styles';
 
 
-const styles = () => ({ 
+const styles = () => ({
   root: {
     width: 500,
     display: 'flex',
@@ -130,6 +130,9 @@ class App extends React.Component {
           }
           {removeDialog &&
           <RemoveDialog
+
+
+
               onClose={this.handleRemoveClose}
               cmp={removeDialog}
               onDelete={this.handleDelete}
