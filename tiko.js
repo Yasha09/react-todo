@@ -27,6 +27,7 @@ class Items extends React.Component {
             <div className={classes.root}>
                 <div className={classes.flex1}>
                     {value}
+                    <p>gago</p>
                 </div>
                 <div>
                     <Button
